@@ -8,20 +8,20 @@
       }
     },
     "chains": {
-      "BTC": {
+      "MERGE": {
         "regtest": {
           "chainSource": "p2p",
           "trustedPeers": [
             {
-              "host": "bitcoin",
-              "port": 8332
+              "host": "http://127.0.0.1",
+              "port": 52000
             }
           ],
           "rpc": {
-            "host": "bitcoin",
-            "port": 8333,
-            "username": "bitcorenodetest",
-            "password": "local321"
+            "host": "127.0.0.1",
+            "port": 52001,
+            "username": "testuser",
+            "password": "testpassword"
           }
         }
       }
